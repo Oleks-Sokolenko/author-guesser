@@ -27,7 +27,7 @@ public class WordCounter{
 		                                .equals("HPL"));
 
 		int correct = test();
-		System.out.println("Got " + correct + "/100" + " or " + correct / 100.0 + "%");
+		System.out.println("Got " + correct + "/100" + " or " + correct + "%");
 	}
 
 	public static void main(String[] args){
